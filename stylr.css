@@ -1,0 +1,23 @@
+body{
+    background-size: cover;
+    border-radius: 40px;
+    animation-name: bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 0px;
+}
+#my_img{
+    margin: 20px;
+    border-radius: 40px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow: 4px 4px 48px rgb(196, 2, 255);}
+    to {box-shadow: 4px 4px 48px rgb(47, 255, 5);}
+}
+@keyframes bg{
+    from {box-shadow: 4px 4px 48px rgb(255, 2, 2);}
+    to {box-shadow: 4px 4px 48px rgb(9, 5, 255);}
+}
